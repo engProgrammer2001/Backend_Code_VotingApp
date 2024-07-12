@@ -1,0 +1,17 @@
+
+{
+    "name": "ashok",
+    "party": "BJP",
+    "age": 20,
+    "vote": [
+        {
+            "_id":"12jashok1938479haj",
+            "votedAt":"2024-01-01T00:00:00.000Z"
+        },
+        {
+            "_id":"12jashok1938479haj",
+            "votedAt":"2024-01-01T00:00:00.000Z"
+        }
+    ],
+    "voteCount": 2
+}

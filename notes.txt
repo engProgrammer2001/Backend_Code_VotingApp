@@ -1,0 +1,44 @@
+voting Application
+----------------------
+
+1) Planning Face : 
+------------------
+WHAT ???
+
+a) user singin with unique number
+b) user signup with adharNumber and Password
+c) user can change the there Password
+d) See the List of elector
+e) people can give the vote to the elector
+f) people can give the vote only once
+g) see votes counting of every elector
+h)there should be one admin who can only maintain the table of elector and he can't give vote  
+
+ROUTES : 
+--------
+User Authentication 
+    user/signup : POST - To Create a new user account
+    user/signin : POST - To Login an existing account
+
+voting : 
+    /candidate : GET - get the list of elector
+    /vote/:candidateId : POST - vote for specific candidate
+
+Vote Counts: 
+    /vote/counts : GET - Get the ist of shorted by there vote count
+
+User Profile : 
+    /profile : GET - get user profile information
+    /porfile/password : PUT - user can update password
+
+Admin candidate Management: 
+    /candidate : POST - Create a new candidate
+    /candidate/:candidateId : PUT - Update an Existing user
+    /candidate/:candidateId : DELETE - DELETE Existing user
+    
+    
+MODELS :
+--------- 
+* user models
+* Electors models
+
